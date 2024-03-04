@@ -1,13 +1,16 @@
 package Collecions;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
 public class ListIteraorDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 	  LinkedList l=new LinkedList();
+
 	  l.add("Arbind");
 	  l.add("ram");
 	  l.add("sham");

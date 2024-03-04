@@ -12,15 +12,16 @@ public class FibonacciNumber {
 		int b=1;
 	
 		
-		//System.out.print(a+" "+b+" ");
+		System.out.print(a+" "+b+" ");
 		
 		for(int i=3;i<=n;i++)
 		{
 		int temp=b;
 		b=a+b;
 		a=temp;
+		 System.out.print(b+" ");
 		}
-        System.out.println(b);
+       
 
 	}
 
