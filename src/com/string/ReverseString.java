@@ -5,6 +5,7 @@ public class ReverseString {
  {
    String str="ABCD";
    String rev="";
+   //using  charAt() method
   /* int n=str.length();
    for(int i=n-1;i>=0;i--)
    {

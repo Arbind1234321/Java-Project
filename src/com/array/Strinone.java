@@ -3,7 +3,7 @@ package com.array;
 public class Strinone {
 
 	public static void main(String[] args) {
-	   String str="0110";
+	   String str="11100100111111";
 	   char ch[]=str.toCharArray();
 	   int count=0;
 	   int max=0;
@@ -14,14 +14,14 @@ public class Strinone {
 		   {
 			count++;  
 			// max=count;
-			 //index=i-count+1;
+			 index=i-count+1;
 		   }
 		   else
 		   {
 			   if(max<count)
 			   {
 				   max=count;
-				   index=i-count;
+				   //index=i-count;
 			   }
 			   
 			   count=0;

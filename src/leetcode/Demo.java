@@ -1,18 +1,17 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class Demo {
 
 	public static void main(String[] args) {
-		int prices[] = { 7, 1, 5, 3, 6, 4,100 };
-		int mini=prices[0];
-		int maxprofit=0;
-		for(int i=1;i<prices.length;i++)//for buying 
-		{
-			int cost=prices[i]-mini;
-			maxprofit=Math.max(maxprofit, cost);
-			mini=Math.min(mini,prices[i]);
-		}
-		System.out.println(maxprofit);
+		String str = "Online Shopping Site Grocery, Lifestyle, Books & More1. Best Offers!";
+		str = str.replaceAll("[^a-zA-Z]", " ").trim();
+		System.out.println(str);
+        str=str.replaceAll("\\s+", "");
+       
+		String s[] = str.split("\\s+");
+		System.out.println(Arrays.toString(s));
 
 	}
 

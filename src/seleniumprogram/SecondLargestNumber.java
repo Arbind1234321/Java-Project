@@ -25,6 +25,7 @@ public class SecondLargestNumber {
 			}
 		}
 		System.out.println("Third irst big is :"+tbig);
+		System.out.println(sbig);
 	}
 
 }

@@ -8,10 +8,10 @@ public class Methods extends Object {
 		//Object o=new Object();
 		String o=new String();
 		Class c=o.getClass();
-		int [] value= new int[3];
-		boolean [] b=new boolean[2];
-		
-		System.out.println(c.getName());
+//		int [] value= new int[3];
+//		boolean [] b=new boolean[2];
+//		
+//		System.out.println(c.getName());
 		Method[] m=c.getDeclaredMethods();
 		System.out.println("Methods informations");
         int count =0;
@@ -21,6 +21,7 @@ public class Methods extends Object {
 			System.out.println(m1.getName());
 		}
 		System.out.println(count);
+	
 	}
 
 }

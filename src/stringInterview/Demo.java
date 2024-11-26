@@ -1,7 +1,4 @@
 package stringInterview;
-
-import java.util.Arrays;
-
 //// W A J P to replace the character with its occurrence 
 public class Demo {
 

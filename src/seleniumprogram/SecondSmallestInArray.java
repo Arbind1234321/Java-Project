@@ -7,7 +7,7 @@ public class SecondSmallestInArray {
 		int ss=arr[1];
 		for(int i=1;i<arr.length;i++)
 		{
-			System.out.println(i+" "+ss+" "+fs);
+			
 			if(fs>arr[i])
 			{
 				ss=fs;

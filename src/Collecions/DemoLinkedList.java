@@ -1,6 +1,7 @@
 package Collecions;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class DemoLinkedList {
@@ -19,6 +20,7 @@ public class DemoLinkedList {
 		li.addFirst("love");
 		li.removeLast();
 		System.out.println(li);
+	//	Collections.synchronizedList(null);
 		//Converting list to Array
 //		 Object[] objectAarray = li.toArray();
 //		 //find the length of array

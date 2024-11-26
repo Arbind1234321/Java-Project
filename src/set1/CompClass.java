@@ -11,8 +11,8 @@ public class CompClass {
 		Employee e3=new Employee(20, "Sona");
 		Employee e4=new Employee(50, "Rg");
 		Employee e5=new Employee(100, "AA");
-		//TreeSet t=new TreeSet(new Mycomparator());//for customize sorting
-		TreeSet t=new TreeSet();//Default sorting order
+		TreeSet t=new TreeSet(new Mycomparator());//for customize sorting
+		//TreeSet t=new TreeSet();//Default sorting order
 		t.add(e1);
 		t.add(e2);
 		t.add(e3);

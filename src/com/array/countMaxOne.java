@@ -3,7 +3,7 @@ package com.array;
 public class countMaxOne {
 
 	public static void main(String[] args) {
-    String str="11010111";
+    String str="11100100111111";
     char ch[]=str.toCharArray();
    // int count=0;
     //int count1=0;
@@ -36,7 +36,7 @@ public class countMaxOne {
     }
     //System.out.println("Total number of 1 is : "+count);
     //
-    System.out.println("Total number of zero is : "+ans + "first is " + first + " last is " + last);
+    //System.out.println("Total number of zero is : "+ans + "first is " + first + " last is " + last);
 	}
 
 }
