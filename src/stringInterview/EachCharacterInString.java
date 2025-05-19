@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class EachCharacterInString {
 
 	public static void main(String[] args) {
-		String str="abbind";//a--1,b--2 i--1 n--1 d--1
+		String str="aniketkumar";//a--2  n--1 i--1 k--2  e--1 u--1  m--1 r---1
 		HashMap<Character ,Integer> m=new HashMap();
 		int l=str.length();
 		int count=0;

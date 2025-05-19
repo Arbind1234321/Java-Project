@@ -16,20 +16,17 @@ public class MintreePattern {
 			for (int j = 1; j <= ele; j++) {
 
 				if (j <= ele / 2) {
-					System.out.print(k + "*");
+					System.out.print(k + "");
 
 					k++;
-
 				} else {
 
 					System.out.print(q + "");
 					if (j < ele)
-						System.out.print("*");
+						System.out.print("");
 					q++;
 				}
-
 				// System.out.print("*");
-
 			}
 			q = q - (ele - 1);
 			nsp += 2;

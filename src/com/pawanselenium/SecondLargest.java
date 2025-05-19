@@ -4,7 +4,7 @@ public class SecondLargest {
 
 	public static void main(String[] args) {
 		//int arr[]= {13817 ,15695, 4474, 8356, 12695, 24341, 8839, 28059, 8337, 3532};
-		int arr[]= {10,10,10};
+		int arr[]= {10,10,10,5};
 		System.out.println(largestNumber(arr));
 
 	}

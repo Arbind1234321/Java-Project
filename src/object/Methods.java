@@ -10,7 +10,7 @@ public class Methods extends Object {
 		Class c=o.getClass();
 //		int [] value= new int[3];
 //		boolean [] b=new boolean[2];
-//		
+//		 public static native registerNative().//
 //		System.out.println(c.getName());
 		Method[] m=c.getDeclaredMethods();
 		System.out.println("Methods informations");

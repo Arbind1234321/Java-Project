@@ -73,6 +73,7 @@ public class LL
 			return deleteFirstIndex();
 		}
 		Node secondlast=get(size-2);
+		
 		int value=tail.value;
 		tail=secondlast;
 		tail.next=null;

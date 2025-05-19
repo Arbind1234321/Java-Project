@@ -56,7 +56,7 @@ public class ArrayListDemo {
 //        	System.out.println(a);
 //        }
 //       
-//       ListIterator a=list.listIterator();
+      ListIterator a=list.listIterator();
 //       
 //       while (a.hasNext()) 
 //

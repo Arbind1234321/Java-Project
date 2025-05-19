@@ -1,5 +1,5 @@
 package com.array;
-
+///majority element 
 public class MajorityElement1 {
 
 	public static void main(String[] args) {

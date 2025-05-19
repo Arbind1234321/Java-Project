@@ -40,11 +40,8 @@ public class SingletonClass {
 	SingletonClass s1=SingletonClass.getSingletonClass();
 	System.out.println(s.hashCode());
 	System.out.println(s1.hashCode());
-	String str="naa";
+	//String str="naa";
  
-
-	
-
 	}
 
 }

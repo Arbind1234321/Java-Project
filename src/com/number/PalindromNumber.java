@@ -9,6 +9,22 @@ public class PalindromNumber {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter number");
 		int n=sc.nextInt();
+		 String t=String.valueOf(n);
+		  boolean b=true;
+		 for(int i=0;i<t.length()/2;i++)
+		 {
+			 if(t.charAt(i)!=t.charAt(t.length()-1-i))
+			 {
+				 b=false;
+			 }
+		 }
+		 if(b)
+		 {
+			 System.out.println("palindrome");
+		 }
+		 else {
+			 System.out.println("not palindrome");
+		 }
 		int  temp=n;
 		int rem=0;
 		String s="";

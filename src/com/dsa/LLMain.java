@@ -11,8 +11,8 @@ public class LLMain {
 	list.insertLast(44);
 	list.insert(66, 3);
 	list.display();
-    System.out.println(list.delete(2));
-	System.out.println(list.find(8));
+    System.out.println(list.deleteLast());
+	//System.out.println(list.find(8));
 	list.display();
 	
 	

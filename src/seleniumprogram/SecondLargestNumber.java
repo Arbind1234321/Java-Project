@@ -2,7 +2,7 @@ package seleniumprogram;
 //Second largest element in array
 public class SecondLargestNumber {
 	public static void main(String[] args) {
-		int [] arr= {67,56,5,88,55,77};
+		int [] arr= {10,5,1};
 		int fbig=arr[0];
 		int sbig=arr[1];
 		int tbig=arr[2];
@@ -24,7 +24,7 @@ public class SecondLargestNumber {
 				tbig=arr[i];
 			}
 		}
-		System.out.println("Third irst big is :"+tbig);
+		//System.out.println("Third irst big is :"+tbig);
 		System.out.println(sbig);
 	}
 
