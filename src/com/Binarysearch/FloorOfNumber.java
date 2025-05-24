@@ -4,16 +4,18 @@ public class FloorOfNumber {
 
 	public static void main(String[] args)
 	{
-		int arr[]= {2,4,5,7,15,17,22,35};
-		  int target=7;
+		int arr[]= {3 ,6 ,6};
+		  int target=5;
 		  System.out.println(floor(arr, target));
 
 	}
+	
 	public static int floor(int [] arr,int target)
 	{
 		
 		int start=0;
 		int end=arr.length-1;
+		int ans=-1;
 		
 		while(start<=end)
 		{
@@ -24,13 +26,14 @@ public class FloorOfNumber {
 			}
 			else if(target>arr[mid])
 			{
+				ans = mid; 
 				start=mid+1;
 			}
 			else
 			{
-				return mid;
+				return mid-1;
 			}
 		}
-		return end;
+		return ans;
 	}
 }

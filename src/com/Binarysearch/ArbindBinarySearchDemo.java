@@ -3,15 +3,15 @@ package com.Binarysearch;
 public class ArbindBinarySearchDemo {
 
 	public static void main(String[] args) {
-		int[] arr = { 1,3,8,12,4,2};
+		int[] arr = {1, 28 ,36 ,44 ,48 ,64 ,78 ,78};
 		// int[] arr = { 5, 10, 30, 20, 40 };
-		int target = 0;
+		int target = 1;
 		// char []arr= {'a','b','c','f','h'};
 		// char target='h';
 		// System.out.println(indexOfElement(arr, target));
 		// System.out.println(indexOfElementdes(arr, target));
 		// System.out.println(orderAgnostic(arr, target));
-		// System.out.println(firstIndex(arr, target));
+		 System.out.println(firstIndex(arr, target));
 		// System.out.println(lastIndex(arr, target));
 		// System.out.println(countOfElement(arr, target));
 		// System.out.println(numberOfTimesRoated(arr));
@@ -27,7 +27,7 @@ public class ArbindBinarySearchDemo {
 		// System.out.println(minimumDiff(arr, target));
 		//System.out.println(peakElement(arr));
 		//System.out.println(bitonicArray(arr));
-		System.out.println(searchBiotonic(arr, target));
+		//System.out.println(searchBiotonic(arr, target));
 
 	}
 
@@ -111,9 +111,9 @@ public class ArbindBinarySearchDemo {
 
 	public static int firstIndex(int[] arr, int target) {
 		int start = 0;
-		int res = 0;
+		int res = -1;
 		int end = arr.length - 1;
-		while (start <= end) {
+		while (start <=end) {
 			int mid = start + (end - start) / 2;
 			if (target == arr[mid]) {
 				res = mid;
@@ -125,10 +125,6 @@ public class ArbindBinarySearchDemo {
 			}
 
 		}
-
-		if (res == 0) {
-			return -1;
-		} else
 			return res;
 	}
 

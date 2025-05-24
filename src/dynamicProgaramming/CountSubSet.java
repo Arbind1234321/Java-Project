@@ -3,15 +3,15 @@ package dynamicProgaramming;
 public class CountSubSet {
 
 	public static void main(String[] args) {
-		int[] arr = { 2, 3, 5, 6, 8, 10 };
-		int sum = 10;
+		int[] arr = {0,0,0,0,0,0,0,0,1};
+		int sum = 1;
 		int n = arr.length;
 		System.out.println(countSubSet(arr, sum, n));
 	}
 
 	public static int countSubSet(int[] arr, int sum, int n) {
 		int[][] t = new int[n + 1][sum + 1];
-		
+
 		for (int i = 0; i < n + 1; i++) {
 			t[i][0] = 1;
 		}

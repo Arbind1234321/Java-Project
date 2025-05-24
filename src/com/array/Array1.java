@@ -7,7 +7,7 @@ public class Array1 {
 
 	public static void main(String[] args) { 
 
-         int [] a= {4,5,6,2,6,9,9,6,9,9};
+         int [] a= {10,10};
         // Arrays.sort(a);
         // System.out.println(Arrays.toString(a));
          System.out.println(secondLargest(a));
@@ -29,6 +29,10 @@ public class Array1 {
 			{
 				sec=a[i];
 			}
+		}
+		if(sec==Integer.MIN_VALUE)
+		{
+			return -1;
 		}
 		return sec;
 	}
