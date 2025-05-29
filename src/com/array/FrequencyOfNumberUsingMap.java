@@ -22,6 +22,9 @@ public class FrequencyOfNumberUsingMap {
 				System.out.println(k + " -->" + map.get(k));
 			}
 		}
+		
+	
+		
 		// both key value coming together (k,v)
 //       for(Entry<Integer, Integer> set:map.entrySet())
 //       {

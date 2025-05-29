@@ -19,7 +19,7 @@ public class MajorityElement {
 	}
 
 	public static void main(String[] args) {
-		int nums[] = { 6, 6, 6, 7, 7 };
+		int nums[] = { 2, 2, 2, 4, 4, 6, 77, 77, 23, 56 };
 		int k = majorityElement(nums);
 		System.out.println(k);
 	}

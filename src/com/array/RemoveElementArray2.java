@@ -20,7 +20,7 @@ public class RemoveElementArray2 {
 		 return count;
 	    }
 	public static void main(String[] args) {
-		int nums[]= {1,1,2};
+		int nums[]= {2,2};
 		int k=removeDuplicates(nums);
 		System.out.println(k);
 	}

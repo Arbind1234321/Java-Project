@@ -4,8 +4,8 @@ public class RoationCount
 {
   public static void main(String[] args) {
 	  int []arr= {5,6,7,8,9,10,4};
-	     //System.out.println(rotationCount(arr));
-	     System.out.println(smallest(arr));
+	     System.out.println(rotationCount(arr));
+	    // System.out.println(smallest(arr));
 }
   public static int rotationCount(int []arr)
   {

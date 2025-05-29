@@ -4,7 +4,7 @@ public class PeakOfMounatain {
 
 	public static void main(String[] args) {
 		int []arr= {0,3,4,7,1,0};
-		//System.out.println(peak(arr));
+		System.out.println(peak(arr));
 		//System.out.println(largestElement(arr));
 		System.out.println(mountain(arr)) ;
 
