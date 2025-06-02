@@ -9,24 +9,12 @@
 ---
 <img align="right" src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=black&theme=synthwave&qColor=orange&aColor=white" alt="Jokes Card" />
 
- 
-
-
 ### About Me <img src="https://github.com/SP-XD/SP-XD/blob/main/images/message.gif?raw=true" width="30" />
 - 🥇 leetcode GeeksforGeeks, 
-- ⭐ 2-star CodeChef, 2-star LeetCode, 3-star HackerRank
+- ⭐ 2-star CodeChef, 2-star LeetCode
 - ✅ 100+ DSA Questions conquered
 
----
-
-<a href="https://leetcode.com/u/arbindkumark/" target="_blank">
- <img align="right" src='https://leetcard.jacoblin.cool/pulkit161001?hide=ranking&border=0&radius=21' width='310"'>
-</a>
-<a href="https://www.geeksforgeeks.org/user/arbindkumnd2v/" target="_blank">
- <img align="right" src='https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=pulkit161001' width='210"'>
-</a>
-
- 
+--- 
 <p align="left">
   <a href="https://twitter.com/KumarArbind" target="_blank">
     <img height="35px" width="auto" src="https://user-images.githubusercontent.com/63710339/185727796-29c208f4-e6b3-403f-b7f6-94b7fa4a6b58.png">
@@ -56,11 +44,9 @@
 </p>
 
 <p align='center'>
-  <img src="https://github.com/SP-XD/SP-XD/blob/main/images/letterbox.gif?raw=true" width="25" /> How to reach me: <a href='mailto:pulkit161001@gmail.com'>pulkit161001@gmail.com</a>
+  <img src="https://github.com/SP-XD/SP-XD/blob/main/images/letterbox.gif?raw=true" width="25" /> How to reach me: <a href='mailto:arbindkumark1995@gmail.com'>arbindkumark1995@gmail.com</a>
 </p>
  
- <p align='center'>
-  <img src="https://komarev.com/ghpvc/?username=PulkitMalhotra161001">
- </p>
+
  
  </details>
