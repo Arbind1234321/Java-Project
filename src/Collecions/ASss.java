@@ -13,6 +13,7 @@ String []str= s.split(" ");
  //System.out.println(stringPalindrome(s));
  //System.out.println(countPalindrom(str));
  firstUpperCase(str);
+ //syso
  
 }
  
