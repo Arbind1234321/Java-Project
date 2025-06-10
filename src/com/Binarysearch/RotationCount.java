@@ -3,7 +3,7 @@ package com.Binarysearch;
 public class RotationCount {
 
 	public static void main(String[] args) {
-	  int []arr= {2,3,4,5,1};
+	  int []arr= {2,3,4,5,0};
 	  System.out.println(rotation(arr));
 	}
 	public static int rotation(int []arr)

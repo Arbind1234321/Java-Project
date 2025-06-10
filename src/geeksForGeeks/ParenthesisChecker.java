@@ -36,6 +36,8 @@ public class ParenthesisChecker {
 	               (open == '[' && close == ']') ||
 	               (open == '{' && close == '}');
 	}
+	
+	
 //	public static boolean isBalanced(String s) {
 //     Map<Character, Integer> map=new HashMap<>();
 //        char[] ch=s.toCharArray();
