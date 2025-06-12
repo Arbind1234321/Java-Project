@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RotateArraybyOne {
 
 	public static void main(String[] args) {
-		int arr[]= {1,2,3,4,5};
+		int arr[]= {8, 3, 1, 2};
 		r(arr);
 
 	}

@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class RotateArray {
 	public static void main(String[] args) {
-		int []arr= {1,2,3,4,5};
-		rotateArr1(arr, 1);
+		int []arr= {8, 3, 1, 2};
+		rotateArr1(arr);
 		
 	}
 	
@@ -26,7 +26,8 @@ public class RotateArray {
 	   }
 	   System.out.println(Arrays.toString(arr));
 	  }
-	 public static void rotateArr1(int arr[], int d) {
+	 public static void rotateArr1(int arr[]) {
+		 int d=1;
 		 int n=arr.length;
 		 d=d%n;
 		
@@ -46,6 +47,12 @@ public class RotateArray {
          {
         	 arr[arr.length+i-d]=a[i];
          }
+         int sum=0;
+         for(int i=0;i<n;i++)
+         {
+        	 sum=sum+arr[i]*i;
+         }
+         System.out.println(sum);
 	  
 	   System.out.println(Arrays.toString(arr));
 	  }
