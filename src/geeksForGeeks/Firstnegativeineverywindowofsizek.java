@@ -3,7 +3,9 @@ package geeksForGeeks;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Firstnegativeineverywindowofsizek {
 
@@ -13,6 +15,39 @@ public class Firstnegativeineverywindowofsizek {
 	System.out.println(Arrays.toString(getSubarrayBeauty(arr, k, x)));
 
 	}
+    static List<Integer> firstNegInt1(int arr[], int k) {
+        List<Integer> result = new ArrayList<>();
+        Queue<Integer> q = new LinkedList<>();
+        int i = 0, j = 0;
+
+        while (j < arr.length) {
+            // If the current element is negative, add to queue
+            if (arr[j] < 0) {
+                q.add(arr[j]);
+            }
+
+            if (j - i + 1 < k) {
+                j++;
+            } else if (j - i + 1 == k) {
+                // Window hit size k
+                if (q.isEmpty()) {
+                    result.add(0);
+                } else {
+                    result.add(q.peek());
+                }
+
+                // Slide the window
+                if (!q.isEmpty() && arr[i] == q.peek()) {
+                    q.poll();
+                }
+
+                i++;
+                j++;
+            }
+        }
+
+        return result;
+    }
 	 static List<Integer> firstNegInt(int arr[], int k) {
 	      ArrayList<Integer> list=new ArrayList<>();
 	      ArrayList<Integer> list1=new ArrayList<>();

@@ -24,6 +24,7 @@ public class Sortingstring {
 				}
 			}
 		}
+		System.out.println(Arrays.toString(ss));
 		return ss;
 	}
 

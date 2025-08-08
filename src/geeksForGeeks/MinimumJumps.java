@@ -4,7 +4,7 @@ public class MinimumJumps {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int [] arr= {1 ,2 ,0, 0 ,0};
+		int [] arr= {20,30 ,40, 20 };
 		System.out.println(minJumps(arr));
 
 	}

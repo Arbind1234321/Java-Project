@@ -24,7 +24,7 @@ public class ArbindBinarySearchDemo {
 		// System.out.println(infinteArray(arr, target));
 		// System.out.println(infiniteArray1(arr, target));
 		// System.out.println(infiniteBinarySorted(arr, target));
-		// System.out.println(minimumDiff(arr, target));
+	 System.out.println(minimumDiff(arr, target));
 		//System.out.println(peakElement(arr));
 		//System.out.println(bitonicArray(arr));
 		//System.out.println(searchBiotonic(arr, target));

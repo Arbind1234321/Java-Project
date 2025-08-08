@@ -1,13 +1,13 @@
 package com.string;
 
-import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class ReplacingCharacterCount {
 
 	public static void main(String[] args) {
-		String str="aabbaccda";//a5b2c2d
-		HashMap<Character, Integer> map=new HashMap<>();
+		String str="ttttllllllssssslhhhh";//a5b2c2d
+		HashMap<Character, Integer> map=new LinkedHashMap<>();
 		
 		for(int i=0;i<str.length();i++)
 		{
@@ -20,7 +20,14 @@ public class ReplacingCharacterCount {
 				map.put(str.charAt(i), 1);
 			}
 		}
-		map.forEach((key,value)-> System.out.print( key+""+value));
+		String s="";
+		//map.forEach((key,value)-> System.out.print( key+""+value));
+		for(Character ch:map.keySet())
+		{
+			s=s+ch+map.get(ch);
+		}
+		System.out.println(s);
+		
 		//System.out.println(map);
 		//Arrays.sort(str);
 	
